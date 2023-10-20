@@ -1,0 +1,166 @@
+body {
+    font-size:16px; /* 1 rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    background-color: rgb(238, 223, 223);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.nav-bar{
+    background-color: #26272b;
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10rem;
+}
+
+.nav-bar a {    
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.fondodinamico{
+    background-color: #84889a;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondodinamico button{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem;
+    padding-bottom: 2rem;
+    height: 0.3rem;
+    text-align: center;
+    font-weight: 60;
+}
+
+.textodinamico{
+    background-color: #84889a;
+    height: 20rem;
+    width: 100%;
+    margin-top: 5rem;
+    align-items: center;
+    display: block;
+}
+
+.textodinamico p{
+    display: flex;
+    color: white;
+    font-size: 5rem;
+    padding-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.buttonsdinamico{
+    display: flex;
+    justify-content: center;
+}
+.buttonsdinamico button{
+    justify-content: space-between;
+    margin: 2.5rem;
+    padding-bottom: 2rem;
+    height: 0.3rem;
+    text-align: center;
+    font-weight: 60;
+}
+
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #26272b;
+    width: 34rem;
+    height: 55rem;
+    border-radius: 2.5rem;
+}
+
+.calculadora td button{
+    display: block;
+    width: 6.1rem;
+    height: 6.1rem;
+    font-size: 2.5rem;
+    background-color: #9ba0ad;
+    border-color: white;
+}
+
+#igual{
+    display: block;
+    width: 6.1rem;
+    height: 6.1rem;
+    font-size: 2.5rem;
+    background-color: #3023aa;
+    border-color: rgb(212, 208, 208);
+}
+
+#reset{
+    display: block;
+    width: 6.1rem;
+    height: 6.1rem;
+    font-size: 2.5rem;
+    background-color: #b32422;
+    border-color: rgb(212, 208, 208);
+}
+
+#resultado{
+    display: block;
+    text-align: end;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    width: 30rem;
+    height: 10rem;
+    background-color: rgb(240, 248, 255);
+    border-radius: 2.5rem;
+    border: 1px solid white;
+    color: black;
+}
+
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.slider-inner {
+    display: flex;
+    transition: all 3s ease-in;
+}
+
+.slider-inner img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+button {
+    display: flex;
+    text-align: center;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.botones{
+    padding-top: 5rem;
+    height: 20rem;
+    width: 100%;
+    background-color: #84889a;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
